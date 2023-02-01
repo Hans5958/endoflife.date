@@ -5,7 +5,8 @@ iconSlug: jekyll
 permalink: /jekyll
 releasePolicyLink: https://jekyllrb.com/docs/security/
 changelogTemplate: https://github.com/jekyll/jekyll/releases/tag/v__LATEST__
-eolColumn: Support
+activeSupportColumn: Active Development
+eolColumn: Maintenance and Security Support
 releaseDateColumn: true
 
 auto:
@@ -14,6 +15,7 @@ auto:
 releases:
 -   releaseCycle: "4"
     eol: false
+    support: true
     minRubyVersion: "2.5+" # https://jekyllrb.com/docs/
     latest: "4.3.2"
     latestReleaseDate: 2023-01-20
@@ -21,6 +23,7 @@ releases:
 
 -   releaseCycle: "3"
     eol: false
+    support: false
     minRubyVersion: "2.0+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
     latest: "3.9.3"
     latestReleaseDate: 2023-01-30
@@ -56,7 +59,7 @@ releases:
 
 Jekyll follows [Semantic Versioning](https://semver.org/). It does not have a fixed release policy,
 nor a clearly defined support policy. Nevertheless, security updates are always applied to the
-latest minor version, and the version used by GitHub Pages (`3.9.x`).
+latest minor version, and [the version used by GitHub Pages](https://pages.github.com/versions/) (Currently `3.9.x`).
 
 ## [Ruby Compatibility](https://jekyllrb.com/docs/installation/)
 
