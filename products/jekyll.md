@@ -31,6 +31,7 @@ releases:
 
 -   releaseCycle: "2"
     eol: 2015-10-27
+    support: false
     minRubyVersion: "1.9.3+" # https://web.archive.org/web/20160103225823/https://jekyllrb.com/docs/installation/
     latest: "2.5.3"
     latestReleaseDate: 2015-01-24
@@ -38,6 +39,7 @@ releases:
 
 -   releaseCycle: "1"
     eol: 2014-05-07
+    support: false
     minRubyVersion: "1.8+" # not sure, should be 1.8 according to https://github.com/jekyll/jekyll/releases/tag/v1.2.0
     latest: "1.5.1"
     latestReleaseDate: 2014-04-23
@@ -45,6 +47,7 @@ releases:
 
 -   releaseCycle: "0"
     eol: 2014-05-07
+    support: false
     minRubyVersion: "1.8+" # not sure, should be 1.8 according to https://web.archive.org/web/20091202224411/http://wiki.github.com/mojombo/jekyll/install
     latest: "0.9.0"
     latestReleaseDate: 2010-12-15
